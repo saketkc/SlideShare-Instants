@@ -26,8 +26,8 @@ $(".search_input").keyup(function()
 //	$(".search_input").blur();
 //$(".inner").focusout();
 var search_input = $(this).val();
-//var keyword= encodeURIComponent(search_input);
-var keyword= (search_input);
+var keyword= encodeURIComponent(search_input);
+//var keyword= (search_input);
 $.ajax({
    type: "GET",
    url: "ajax.php",
