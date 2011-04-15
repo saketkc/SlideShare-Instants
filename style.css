@@ -1,0 +1,72 @@
+/*
+        
+        Copyright 2011 Saket Choudhary  <saketkc@gmail.com>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+       */
+
+body {
+background-color:#86c9ef;
+color:#000;
+font-family:'Verdana', Times New Roman, Times, serif
+
+}
+h2
+{
+font-family:'Verdana', Times New Roman, Times, serif
+
+}
+.search_input
+{
+
+border:2px solid #333;
+font-size:20px;
+padding:5px;
+width:350px;
+font-family:'Georgia', Times New Roman, Times, serif;
+-moz-border-radius:5px;-webkit-border-radius:5px;
+
+
+}
+.inner
+{
+background-color:#000;
+margin-top:25px;
+margin-left:25%;
+min-height:370px;
+width:480px;
+border:solid 10px #ffffff;
+
+-moz-border-radius:9px;
+-webkit-border-radius:9px;
+
+}
+#prev
+{
+position:absolute;
+
+margin-top:-39%;
+margin-left:15%;
+}
+
+#next
+{
+position:absolute;
+
+margin-top:-39%;
+margin-left:77%;
+}
+

@@ -19,11 +19,11 @@
         MA 02110-1301, USA.
        */
 
-$api_key="8GD14Jk1";
-$secret="mnFaUN4s";
+$api_key="API";
+$secret="SECRET";
 
-$proxy="http://netmon.iitb.ac.in";
-$pass="saket.kumar:knoppix.fedora";
+$proxy="PROXY";
+$pass="USER:PWD";
 
 if ($_GET['op']=="ajaxrequest")
 {
